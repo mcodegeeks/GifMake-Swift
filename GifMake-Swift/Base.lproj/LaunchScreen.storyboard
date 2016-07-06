@@ -17,14 +17,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="LaunchLogo" translatesAutoresizingMaskIntoConstraints="NO" id="LQC-K6-pio">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchLogo" translatesAutoresizingMaskIntoConstraints="NO" id="LQC-K6-pio">
                                 <rect key="frame" x="260" y="260" width="80" height="80"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0078431372550000003" green="0.70196078429999997" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="LQC-K6-pio" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="DJY-UT-BLJ"/>
-                            <constraint firstItem="LQC-K6-pio" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="mEN-NJ-jPm"/>
+                            <constraint firstItem="LQC-K6-pio" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ecr-1d-UCi"/>
+                            <constraint firstItem="LQC-K6-pio" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gFg-di-B9h"/>
                         </constraints>
                     </view>
                 </viewController>

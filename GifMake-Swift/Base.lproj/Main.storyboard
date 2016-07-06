@@ -1,128 +1,167 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Hpe-gm-EBn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Wyu-KV-6cr">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
-        <scene sceneID="mmn-4J-aXz">
+        <scene sceneID="nA5-kc-vUW">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Hpe-gm-EBn" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Wyu-KV-6cr" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xt4-jF-tSf">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Rjk-bM-ZH7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="MCt-Z2-fFy" kind="relationship" relationship="rootViewController" id="o2a-nR-XYC"/>
+                        <segue destination="t65-Am-dfD" kind="relationship" relationship="rootViewController" id="Fmg-dV-9Bx"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="E0X-Vt-EfD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6nK-Y1-p7N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="205" y="-129"/>
+            <point key="canvasLocation" x="24" y="-373"/>
         </scene>
         <!--Gif Editor View Controller-->
-        <scene sceneID="gGl-tq-ePM">
+        <scene sceneID="wtf-2P-9lp">
             <objects>
-                <viewController id="2sA-Ey-Pkh" customClass="GifEditorViewController" customModule="GifMake_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7ZQ-wq-msA" customClass="GifEditorViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="UM1-qZ-Gll"/>
-                        <viewControllerLayoutGuide type="bottom" id="7n5-bw-MNV"/>
+                        <viewControllerLayoutGuide type="top" id="V9N-yZ-LVX"/>
+                        <viewControllerLayoutGuide type="bottom" id="VwH-ha-4Vr"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="RPo-78-g7Q">
+                    <view key="view" contentMode="scaleToFill" id="XaN-53-haB">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="j9g-9k-52N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TOw-Ul-VXc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1054" y="967"/>
+            <point key="canvasLocation" x="1455" y="-389"/>
         </scene>
         <!--Saved Gifs View Controller-->
-        <scene sceneID="kbs-nv-0qn">
+        <scene sceneID="1SS-lO-hoe">
             <objects>
-                <viewController id="Yai-1d-gBE" customClass="SavedGifsViewController" customModule="GifMake_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Ubs-xV-nhM" customClass="SavedGifsViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="pvC-43-mBF"/>
-                        <viewControllerLayoutGuide type="bottom" id="J0L-G6-V7r"/>
+                        <viewControllerLayoutGuide type="top" id="zJX-Gc-RK6"/>
+                        <viewControllerLayoutGuide type="bottom" id="zSZ-eg-nKW"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Uwp-dw-XEv">
+                    <view key="view" contentMode="scaleToFill" id="7lT-fQ-I4R">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="1RN-FC-CUb"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mqu-ay-c7j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="08C-X2-rDk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1592" y="-273"/>
+            <point key="canvasLocation" x="743" y="-373"/>
         </scene>
         <!--Gif Preview View Controller-->
-        <scene sceneID="jZK-zp-HgD">
+        <scene sceneID="nIp-6T-01Y">
             <objects>
-                <viewController id="HpK-uU-7YF" customClass="GifPreviewViewController" customModule="GifMake_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="854-Pt-DDg" customClass="GifPreviewViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Qlt-m8-hDX"/>
-                        <viewControllerLayoutGuide type="bottom" id="5ad-y3-cp3"/>
+                        <viewControllerLayoutGuide type="top" id="j2I-cJ-C6J"/>
+                        <viewControllerLayoutGuide type="bottom" id="rDu-UX-5fq"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="bZM-Ns-aqU">
+                    <view key="view" contentMode="scaleToFill" id="hVN-9l-Ypi">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZnV-sK-tBX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8eY-ls-px9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="543" y="899"/>
+            <point key="canvasLocation" x="743" y="398"/>
         </scene>
         <!--Detail View Controller-->
-        <scene sceneID="qCY-3y-xWm">
+        <scene sceneID="9Uh-Pt-Q4p">
             <objects>
-                <viewController id="uex-XM-Z1Q" customClass="DetailViewController" customModule="GifMake_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Cfu-22-Rh9" customClass="DetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="MBK-0v-FAg"/>
-                        <viewControllerLayoutGuide type="bottom" id="ABZ-xq-aOw"/>
+                        <viewControllerLayoutGuide type="top" id="cV0-k2-mDR"/>
+                        <viewControllerLayoutGuide type="bottom" id="8eD-Aj-DI2"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="jf2-H9-Msi">
+                    <view key="view" contentMode="scaleToFill" id="UyO-r4-yqZ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vAe-b0-RJU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c0F-FT-LAO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1592" y="429"/>
+            <point key="canvasLocation" x="1455" y="406"/>
         </scene>
         <!--Welcome View Controller-->
-        <scene sceneID="dNL-Lj-RL9">
+        <scene sceneID="lzM-a4-HdG">
             <objects>
-                <viewController id="MCt-Z2-fFy" customClass="WelcomeViewController" customModule="GifMake_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="t65-Am-dfD" customClass="WelcomeViewController" customModule="GifMake_Swift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="PCr-1Y-cF0"/>
-                        <viewControllerLayoutGuide type="bottom" id="xL1-cN-ivY"/>
+                        <viewControllerLayoutGuide type="top" id="z5l-uZ-cuX"/>
+                        <viewControllerLayoutGuide type="bottom" id="TfX-gL-JhI"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="2su-FJ-47H">
+                    <view key="view" contentMode="scaleToFill" id="HDp-fu-1DV">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Un2-ne-B2h">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="51H-qU-ijo" userLabel="Gif Image View">
+                                <rect key="frame" x="20" y="64" width="560" height="560"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="51H-qU-ijo" secondAttribute="height" multiplier="1:1" id="WMz-TR-dxz"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUh-Ks-3Mh">
                                 <rect key="frame" x="270" y="520" width="60" height="60"/>
                                 <state key="normal" image="CreateButton"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WELCOME!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1xC-r4-U8d">
+                                <rect key="frame" x="183" y="545" width="234" height="49"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ceu-aR-fB6">
+                                <rect key="frame" x="147" y="439" width="306" height="41"/>
+                                <string key="text">Let's create some GIFs!! 
+Get started by tapping the button below</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to GIFit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XoH-sL-76Z">
+                                <rect key="frame" x="220" y="405" width="160" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Un2-ne-B2h" firstAttribute="centerX" secondItem="2su-FJ-47H" secondAttribute="centerX" id="exu-oe-hTa"/>
-                            <constraint firstItem="xL1-cN-ivY" firstAttribute="top" secondItem="Un2-ne-B2h" secondAttribute="bottom" constant="20" id="ycO-qc-j8X"/>
+                            <constraint firstItem="51H-qU-ijo" firstAttribute="top" secondItem="z5l-uZ-cuX" secondAttribute="bottom" id="1Hh-Cg-V6J"/>
+                            <constraint firstItem="TfX-gL-JhI" firstAttribute="top" secondItem="WUh-Ks-3Mh" secondAttribute="bottom" constant="20" id="1I8-Dy-ztu"/>
+                            <constraint firstItem="1xC-r4-U8d" firstAttribute="bottom" secondItem="51H-qU-ijo" secondAttribute="bottom" constant="-30" id="6Jn-IT-Nnv"/>
+                            <constraint firstItem="1xC-r4-U8d" firstAttribute="centerX" secondItem="51H-qU-ijo" secondAttribute="centerX" id="D9O-cc-3q1"/>
+                            <constraint firstItem="XoH-sL-76Z" firstAttribute="bottom" secondItem="ceu-aR-fB6" secondAttribute="top" constant="-10" id="Poe-RI-5ye"/>
+                            <constraint firstItem="ceu-aR-fB6" firstAttribute="bottom" secondItem="WUh-Ks-3Mh" secondAttribute="top" constant="-40" id="SAG-65-7u0"/>
+                            <constraint firstItem="51H-qU-ijo" firstAttribute="trailing" secondItem="HDp-fu-1DV" secondAttribute="trailingMargin" id="TjM-cr-QVr"/>
+                            <constraint firstItem="ceu-aR-fB6" firstAttribute="centerX" secondItem="HDp-fu-1DV" secondAttribute="centerX" id="XFx-70-zwJ"/>
+                            <constraint firstItem="51H-qU-ijo" firstAttribute="leading" secondItem="HDp-fu-1DV" secondAttribute="leadingMargin" id="gvE-2y-GOz"/>
+                            <constraint firstItem="WUh-Ks-3Mh" firstAttribute="centerX" secondItem="HDp-fu-1DV" secondAttribute="centerX" id="ktW-Oq-RWq"/>
+                            <constraint firstItem="XoH-sL-76Z" firstAttribute="centerX" secondItem="HDp-fu-1DV" secondAttribute="centerX" id="l8y-LK-1IT"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="7wK-BU-8WY"/>
+                    <navigationItem key="navigationItem" id="Jhs-nK-LsN"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mRy-VN-e0P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DnV-3y-gUR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="925" y="-129"/>
+            <point key="canvasLocation" x="743" y="1151"/>
         </scene>
     </scenes>
     <resources>
