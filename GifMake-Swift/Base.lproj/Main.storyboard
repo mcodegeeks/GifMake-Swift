@@ -15,10 +15,13 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="MCt-Z2-fFy" kind="relationship" relationship="rootViewController" id="o2a-nR-XYC"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E0X-Vt-EfD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="-263"/>
+            <point key="canvasLocation" x="205" y="-129"/>
         </scene>
         <!--Gif Editor View Controller-->
         <scene sceneID="gGl-tq-ePM">
@@ -36,7 +39,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j9g-9k-52N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="960" y="-265"/>
+            <point key="canvasLocation" x="1054" y="967"/>
         </scene>
         <!--Saved Gifs View Controller-->
         <scene sceneID="kbs-nv-0qn">
@@ -72,7 +75,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZnV-sK-tBX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="947" y="429"/>
+            <point key="canvasLocation" x="543" y="899"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="qCY-3y-xWm">
@@ -103,12 +106,26 @@
                     <view key="view" contentMode="scaleToFill" id="2su-FJ-47H">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Un2-ne-B2h">
+                                <rect key="frame" x="270" y="520" width="60" height="60"/>
+                                <state key="normal" image="CreateButton"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Un2-ne-B2h" firstAttribute="centerX" secondItem="2su-FJ-47H" secondAttribute="centerX" id="exu-oe-hTa"/>
+                            <constraint firstItem="xL1-cN-ivY" firstAttribute="top" secondItem="Un2-ne-B2h" secondAttribute="bottom" constant="20" id="ycO-qc-j8X"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="7wK-BU-8WY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mRy-VN-e0P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="947" y="1120"/>
+            <point key="canvasLocation" x="925" y="-129"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="CreateButton" width="60" height="60"/>
+    </resources>
 </document>
