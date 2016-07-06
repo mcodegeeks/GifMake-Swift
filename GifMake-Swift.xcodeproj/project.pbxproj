@@ -12,6 +12,8 @@
 		123984FD1D2DAC5E003C5DC1 /* GifPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123984F81D2DAC5E003C5DC1 /* GifPreviewViewController.swift */; };
 		123984FE1D2DAC5E003C5DC1 /* SavedGifsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123984F91D2DAC5E003C5DC1 /* SavedGifsViewController.swift */; };
 		123984FF1D2DAC5E003C5DC1 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123984FA1D2DAC5E003C5DC1 /* WelcomeViewController.swift */; };
+		123985011D2DB0DE003C5DC1 /* UIView+animatedGIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123985001D2DB0DE003C5DC1 /* UIView+animatedGIF.swift */; };
+		123985031D2DB62C003C5DC1 /* tinaFeyHiFive.gif in Resources */ = {isa = PBXBuildFile; fileRef = 123985021D2DB62C003C5DC1 /* tinaFeyHiFive.gif */; };
 		12AF2DBB1D2B48970078228F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AF2DBA1D2B48970078228F /* AppDelegate.swift */; };
 		12AF2DC01D2B48970078228F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12AF2DBE1D2B48970078228F /* Main.storyboard */; };
 		12AF2DC21D2B48970078228F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12AF2DC11D2B48970078228F /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 		123984F81D2DAC5E003C5DC1 /* GifPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GifPreviewViewController.swift; path = ViewControllers/GifPreviewViewController.swift; sourceTree = "<group>"; };
 		123984F91D2DAC5E003C5DC1 /* SavedGifsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SavedGifsViewController.swift; path = ViewControllers/SavedGifsViewController.swift; sourceTree = "<group>"; };
 		123984FA1D2DAC5E003C5DC1 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = ViewControllers/WelcomeViewController.swift; sourceTree = "<group>"; };
+		123985001D2DB0DE003C5DC1 /* UIView+animatedGIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+animatedGIF.swift"; path = "Extensions/UIView+animatedGIF.swift"; sourceTree = "<group>"; };
+		123985021D2DB62C003C5DC1 /* tinaFeyHiFive.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = tinaFeyHiFive.gif; path = Images/tinaFeyHiFive.gif; sourceTree = "<group>"; };
 		12AF2DB71D2B48970078228F /* GifMake-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GifMake-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12AF2DBA1D2B48970078228F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12AF2DBF1D2B48970078228F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,6 +86,7 @@
 		12E5AB5A1D2C15CA002A35B1 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				123985021D2DB62C003C5DC1 /* tinaFeyHiFive.gif */,
 				12AF2DC11D2B48970078228F /* Assets.xcassets */,
 				12AF2DBE1D2B48970078228F /* Main.storyboard */,
 				12AF2DC31D2B48970078228F /* LaunchScreen.storyboard */,
@@ -92,6 +97,7 @@
 		12E5AB5C1D2C1651002A35B1 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				123985001D2DB0DE003C5DC1 /* UIView+animatedGIF.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -167,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				123985031D2DB62C003C5DC1 /* tinaFeyHiFive.gif in Resources */,
 				12AF2DC51D2B48970078228F /* LaunchScreen.storyboard in Resources */,
 				12AF2DC21D2B48970078228F /* Assets.xcassets in Resources */,
 				12AF2DC01D2B48970078228F /* Main.storyboard in Resources */,
@@ -182,6 +189,7 @@
 			files = (
 				123984FE1D2DAC5E003C5DC1 /* SavedGifsViewController.swift in Sources */,
 				123984FD1D2DAC5E003C5DC1 /* GifPreviewViewController.swift in Sources */,
+				123985011D2DB0DE003C5DC1 /* UIView+animatedGIF.swift in Sources */,
 				12AF2DBB1D2B48970078228F /* AppDelegate.swift in Sources */,
 				123984FF1D2DAC5E003C5DC1 /* WelcomeViewController.swift in Sources */,
 				123984FB1D2DAC5E003C5DC1 /* DetailViewController.swift in Sources */,

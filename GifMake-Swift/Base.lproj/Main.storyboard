@@ -158,6 +158,9 @@ Get started by tapping the button below</string>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Jhs-nK-LsN"/>
+                    <connections>
+                        <outlet property="imageView" destination="51H-qU-ijo" id="meS-hK-6YE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DnV-3y-gUR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -10,10 +10,15 @@ import UIKit
 
 class WelcomeViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        if let image = UIImage.animatedImageWithGIFName("tinaFeyHiFive") {
+            imageView.image = image
+        }        
     }
 
     override func didReceiveMemoryWarning() {
